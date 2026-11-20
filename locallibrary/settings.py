@@ -37,7 +37,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'django-insecure-68)avdzn0!$0s^
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['NomaCreates.pythonanywhere.com', '127.0.0.1']
-
+CSRF_TRUSTED_ORIGINS = ['https://NomaCreates.pythonanywhere.com']
 
 # Application definition
 
